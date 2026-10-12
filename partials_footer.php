@@ -1,0 +1,1 @@
+<footer class="footer">InventoriKu · Mini Project 3</footer></main></body></html>
