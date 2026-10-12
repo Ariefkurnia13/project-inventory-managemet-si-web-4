@@ -26,14 +26,12 @@ Aplikasi Inventory Management System menggunakan PHP 8+, MySQL/MariaDB, PDO, dan
 2. Jalankan Apache dan MySQL di XAMPP.
 3. Buka phpMyAdmin, lalu import `schema.sql`.
 4. Jika username/password database Anda berbeda, ubah `DB_USER` dan `DB_PASS` di `config.php`.
-5. Buka `http://localhost/inventory-management-system/setup.php` sekali untuk membuat akun demo dan kategori contoh.
-6. Login melalui `http://localhost/inventory-management-system/login.php`.
+5. Login melalui `http://localhost/inventory-management-system/login.php`.
 
-Akun demo:
+Akun :
 - Admin: `admin` / `Admin123!`
 - Staff: `staff` / `Staff123!`
 
-**Penting:** hapus atau nonaktifkan `setup.php` setelah setup. Ganti password demo sebelum digunakan sungguhan.
 
 ## Cara menjalankan dengan PHP built-in server
 
@@ -43,7 +41,7 @@ Setelah database diimpor dan konfigurasi disesuaikan:
 php -S 127.0.0.1:8000
 ```
 
-Lalu buka `http://127.0.0.1:8000/setup.php`, kemudian `http://127.0.0.1:8000/login.php`.
+Lalu buka `http://127.0.0.1:8000/login.php`.
 
 ## Catatan perilaku
 
